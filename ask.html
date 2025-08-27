@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Questions?</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="master.css">
+    </head>
+    <body>
+        <header class="headers">
+            <h1>Ask Away!</h1>
+        </header>
+
+        <div>
+            <nav>
+              
+            </nav>
+        </div>
+
+        <div class="mainContent">
+            <aside class="aside">
+                <p id="image-center"><img src="Questions.jpg" alt="Animated person without a face with question marks above their head."></p>
+            </aside>
+
+            <section class="section">
+                <div id="form-div">
+                    <form>
+                            <p>
+                                <label for="first">First Name:</label>
+                                <input type="text" name="first" id="first" placeholder="Johnny">
+                            </p>
+                            <p>
+                                <label for="last">Last Name:</label>
+                                <input type="text" name="last" id="last" placeholder="Storm">
+                            </p>
+                            <p>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" placeholder="johnny.storm@ff.com">
+                            </p>
+                            <p>
+                                <label for="verify">Verify Email:</label>
+                                <input placeholder="Re-write your email." type="email" name="verify" id="verify">
+                            </p>
+                            <p>
+                                <label for="text">Question Box:</label>
+                                <textarea cols="30" id="text" placeholder="What do you want to learn more about?"></textarea>
+                            </p>
+                            <input type="submit">
+                    </form>
+                    <script>
+                        const value1 = document.getElementById("email").value;
+                        const value2 = document.getElementById("verify").value;
+                        if (value1 != value2) {
+                            alert("Email must match!")
+                        }
+                        else {
+                            alert("Thank you for your submission!")
+                        }
+                    </script>
+                </div>
+            </section>
+            
+
+        </div>
+        <div>
+            <nav class="navigators">
+              <h3>Go Back To:
+                <a href="index.html">Oklahoma </a> |
+                <a href="Tulsa.html"> Tulsa </a> |
+                <a href="Cooperton.html">Cooperton</a>
+              </h3>
+            </nav>
+        </div>
+        <footer id="position-top">
+            <h2>Thank you for visiting the site! We appreciate all feedback.</h2>
+       </footer>
+    </body>
+
+</html>
+

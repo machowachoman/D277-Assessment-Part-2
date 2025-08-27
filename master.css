@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0074D0;
+}
+
+a:hover {
+    color: #175C40;
+    
+}
+
+
+.mainContent {
+    background-color:#B49A5D;
+    display: flex;    
+    align-content: center;
+    padding: 30px;
+}
+
+.aside {
+    flex: 0 0 30%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.section {
+    flex: 0 0 70%;
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#image-center {
+    text-align: center;
+}
+
+.headers {
+    padding: 10px;
+    background-color: #0074D0;
+    font-size: xx-large;
+    height: 5em;
+    color: #EEE8C7
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: #EEE8C7;
+    text-align: center;
+    font-size: large;
+    color: #782D3F;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #EEE8C7;
+    color: #782D3F;
+}
+
+#position-top {
+    position:absolute;
+    top: 1px;
+}
+
+#form-div {
+    text-align: center;
+}
+
+label {
+    position: relative;
+    right: 30px;
+}
+
+input {
+    align-items: right;
+}
+
+#sideby {
+    float: left;
+    padding: 10px;
+}
+
+#staydown {
+    clear:both
+}
+
+table > tbody > tr > td {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+.cities {
+    position: relative;
+    left: 10px;
+}
